@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Moseo Regular;
+    src: url(fonts/MuseoSansRounded300.otf);
+}
+@font-face {
+    font-family: Moseo Bold;
+    src: url(fonts/MuseoSansRounded700.otf);
+}
+@font-face {
+    font-family: Moseo Bolder;
+    src: url(fonts/MuseoSansRounded900.otf);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fcf3f4;
+}
+.header {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    
+}
+
+.header, .home_page, .skills_page, .portfolio_page, .about_page {
+    max-width: 800px;
+    margin: 0 auto;
+    /*border: 2px solid red;*/
+}
+
+.menu {
+    width: 612px;
+    height: 62px;
+    margin: 0 auto;
+    background-color: #c0dbea;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+
+.menu a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: Moseo bolder;
+    font-size: 16px;
+    background-color: #c0dbea;
+    background-image: #c0dbea;
+    border:2px solid #fff;
+    border-radius: 50px;
+}
+
+.menu a:hover {
+    color: black;
+    background-image: linear-gradient(90deg, #fff7ad, #ffa9f9);
+    transition: all 0.5s;
+}
+
+@media (max-width: 428px) {
+    .header {
+        padding: 0;
+       
+    }
+    .menu {
+        
+        border-radius: 0;
+        justify-content: center;
+        
+    }
+    .menu a {
+        border-radius: 0;
+        padding: 20px 23px;
+        border:1px solid #fff;
+    }
+
+}
+
+/*HOME PAGE CSS*/
+
+
+/*SKILLS PAGE CSS*/
+
+
+/*PORTFOLIO PAGE CSS*/
+
+/*---START WORK TYPE MENU CSS-------------------*/
+.work_type {
+    max-width: 600px;
+    height: 62px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.work_type a{
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-family: 'Moseo Bold';
+    color: #000;
+}
+
+.red {
+    border:2px solid #0000;
+    border-radius:10px;
+    background:
+      linear-gradient(white,white) padding-box,
+      linear-gradient(90deg, #ff3131,#ff914d) border-box;
+  }
+
+.red:hover {
+    color: #ff3131;
+    transition:  0.2s;
+}
+
+.blue {
+    border:2px solid #0000;
+    border-radius:10px;
+    background:
+      linear-gradient(white,white) padding-box,
+      linear-gradient(90deg, #5de3d6,#004aad) border-box;
+}
+
+.blue:hover {
+    color: #004aad;
+    transition:  0.2s;
+}
+
+.yellow {
+    border:2px solid #0000;
+    border-radius:10px;
+    background:
+      linear-gradient(white,white) padding-box,
+      linear-gradient(90deg, #ffde59,#ff914d) border-box;
+}
+
+.yellow:hover {
+    color: #ff914d;
+    transition:  0.2s;
+}
+
+.pink {
+    border:2px solid #0000;
+    border-radius:10px;
+    background:
+      linear-gradient(white,white) padding-box,
+      linear-gradient(-50deg, #e8a0bf,#ffa9a9) border-box;
+}
+
+.pink:hover {
+    color: #e8a0bf ;
+    transition:  0.2s;
+}
+
+@media (max-width: 428px) {
+    .work_type {
+        padding-top: 60px;   
+    }
+
+    .work_type a {
+        padding: 20px 5px;
+        border-radius: 0;
+        margin: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+   
+@media (max-width: 379.5px) {
+        a.pink {
+            padding: 11.5px 5px;
+        }
+    }
+/*---END WORK TYPE MENU CSS-------------------*/
+
+
+.my_work, .landing_page {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.my_work {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Moseo Regular';
+}
+
+.page_title {
+    font-size: 10px;
+    font-family: 'Moseo Regular';
+    padding: 20px 10px;
+    
+}
+.landing_img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 0px 88px -1px rgba(0,0,0,0.11);
+-webkit-box-shadow: 3px 0px 88px -1px rgba(0,0,0,0.11);
+-moz-box-shadow: 3px 0px 88px -1px rgba(0,0,0,0.11);
+    
+}
+.space {
+    height: 20px;
+}
+
+
+
+
+
+
+
+/*ABOUT PAGE CSS*/
